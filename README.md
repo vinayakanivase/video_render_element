@@ -46,3 +46,22 @@ Here is the list of the properties used during the rendering of the video elemen
 
 ### Optional
 - **#fallback_message:** (string) The content to be shown as a fallback in browsers that don't support the element.
+- **#attributes:** (array) HTML attributes for the element. The first-level keys are the attribute names, such as 'id', 'class', and the attributes are usually given as an array of string values to apply to that attribute (the rendering system will concatenate them together into a string in the HTML output).
+
+## Video element attributes
+Like all other HTML elements, this element supports the [global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes).
+
+- **autoplay:** A Boolean attribute; if specified, the video automatically begins to play back as soon as it can do so without stopping to finish loading the data.
+- **controls:** If this attribute is present, the browser will offer controls to allow the user to control video playback, including volume, seeking, and pause/resume playback.
+- **height:** The height of the video's display area, in CSS pixels (absolute values only; no percentages.)
+- **loop:** A Boolean attribute; if specified, the browser will automatically seek back to the start upon reaching the end of the video.
+- **muted:** A Boolean attribute that indicates the default setting of the audio contained in the video. If set, the audio will be initially silenced. Its default value is false, meaning that the audio will be played when the video is played.
+- **preload:** This enumerated attribute is intended to provide a hint to the browser about what the author thinks will lead to the best user experience with regards to what content is loaded before the video is played. It may have one of the following values:
+  + **none:** Indicates that the video should not be preloaded.
+  + **metadata:** Indicates that only video metadata (e.g. length) is fetched.
+  + **auto:** Indicates that the whole video file can be downloaded, even if the user is not expected to use it.
+  + **empty string:** Synonym of the auto value.
+ - **poster:** A URL for an image to be shown while the video is downloading. If this attribute isn't specified, nothing is displayed until the first frame is available, then the first frame is shown as the poster frame.
+ - **width:** The width of the video's display area, in CSS pixels (absolute values only; no percentages).
+ 
+> [Read more at MDN web docs.](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video)
