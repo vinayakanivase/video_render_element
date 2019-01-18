@@ -15,6 +15,8 @@ $build['introduction'] = array(
   // markup, instead of setting it to false, simply do not include it in the
   // '#attributes' array.
   '#attributes' => array(
+    'id' => 'introduction-video',
+    'class' => ['class-1', 'class-2'],
     'autoplay' => TRUE,
     'controls' => TRUE,
     'height' => 240,
