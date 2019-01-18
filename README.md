@@ -26,7 +26,7 @@ $build['introduction'] = array(
 );
 ```
 
-## Output example
+## Rendered output example
 ```html
 <video id="introduction-video" class="class-1 class-2" controls="" autoplay="" preload="auto" height="240" width="320" poster="thumbnail.jpg">
   <source src="intro.mp4" type="video/mp4">
@@ -42,7 +42,7 @@ Here is the list of the properties used during the rendering of the video elemen
 
 ### Required
 - **#type:** (string) The machine name of the type of render element.
-- **#sources:** (array) An array of file names (handles). It is commonly used to serve the same media content in multiple formats supported by different browsers.
+- **#sources:** (array) An array of absolute or relative URLs. It is commonly used to serve the same media content in multiple formats supported by different browsers.
 
 ### Optional
 - **#fallback_message:** (string) The content to be shown as a fallback in browsers that don't support the element.
