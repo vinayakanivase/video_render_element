@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function video_theme() {
+  return [
+    'video' => [
+      'variables' => [
+        'sources' => [],
+        'attributes' => [],
+        'fallback_message' => '',
+      ],
+    ],
+  ];
+}

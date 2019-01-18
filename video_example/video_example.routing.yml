@@ -1,0 +1,7 @@
+video_example.demo:
+  path: '/video-example'
+  defaults:
+    _title: 'Video Render Element Example'
+    _controller: '\Drupal\video_example\Controller\VideoExampleController::demo'
+  requirements:
+    _access: 'TRUE'

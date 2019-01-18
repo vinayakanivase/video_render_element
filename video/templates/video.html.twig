@@ -1,0 +1,12 @@
+{% if sources %}
+  <video{{ attributes }}>
+
+    {% for source in sources %}
+      <source src="{{ source.src }}" type="{{ source.type }}">
+    {% endfor %}
+
+    {% if fallback_message %}
+      <p>{{ fallback_message }}</p>
+    {% endif %}
+  </video>
+{% endif %}

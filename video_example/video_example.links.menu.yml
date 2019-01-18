@@ -1,0 +1,4 @@
+video_example.demo:
+  title: 'Video Example'
+  description: 'Video Render Element Example'
+  route_name: video_example.demo

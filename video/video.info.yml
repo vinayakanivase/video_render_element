@@ -1,0 +1,6 @@
+name: 'Video'
+description: 'Provides an HTML5 video render element.'
+version: '1.0'
+package: 'Custom'
+type: 'module'
+core: '8.x'

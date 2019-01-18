@@ -1,0 +1,7 @@
+name: 'Video Example'
+description: 'Demonstrates how to use video render element.'
+package: 'Custom'
+type: 'module'
+core: '8.x'
+dependencies:
+  - video:video
